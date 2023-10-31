@@ -2,5 +2,5 @@
 number = 97
 
 while (number > 96 and number < 123):
-    print(chr(number), end="")
+    print("{}".format(chr(number)), end="")
     number = number + 1
