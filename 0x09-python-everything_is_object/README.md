@@ -19,3 +19,7 @@
         - In following ``` >>> a = 89 ``` and ``` >>> b = a ```.
         - Do ``` a ``` and ``` b ``` point to the same object?
         - soln: ``` Yes ```
+2. Right count
+        - In following ``` >>> a = 89 ``` and ``` >>> b = a + 1 ```.
+        - Do ``` a ``` and ``` b ``` point to the same object?
+        - soln: ``` No ```
