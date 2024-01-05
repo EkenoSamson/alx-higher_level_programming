@@ -10,4 +10,8 @@
 2. Right count
 	- In following ``` >>> a = 89 ``` and ``` >>> b = 100 ```.
 	- Do ``` a ``` and ``` b ``` point to the same object?
-	- soln: ``` no ```
+	- soln: ``` No ```
+2. Right count
+        - In following ``` >>> a = 89 ``` and ``` >>> b = 89 ```.
+        - Do ``` a ``` and ``` b ``` point to the same object?
+        - soln: ``` No ```
