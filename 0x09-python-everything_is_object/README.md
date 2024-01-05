@@ -47,3 +47,11 @@
         s2 = "Best School"
         print(s1 is s2)
         ```
+10. And a list, is it equal/same?
+	```
+>>> l1 = [1, 2, 3]
+>>> l2 = [1, 2, 3] 
+>>> print(l1 == l2)
+```
+
+
