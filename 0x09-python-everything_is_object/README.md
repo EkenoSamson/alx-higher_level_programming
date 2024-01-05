@@ -23,3 +23,27 @@
         - In following ``` >>> a = 89 ``` and ``` >>> b = a + 1 ```.
         - Do ``` a ``` and ``` b ``` point to the same object?
         - soln: ``` No ```
+6. Is Equal?
+	``` 
+	s1 = "Best School"
+	s2 = s1
+	print(s1 == s2)
+	```
+6. Is Equal?
+        ``` 
+        s1 = "Best School"
+        s2 = s1
+        print(s1 is s2)
+        ```
+6. Is Equal?
+        ``` 
+        s1 = "Best School"
+        s2 = "Best School"
+        print(s1 == s2)
+        ```
+6. Is Equal?
+        ``` 
+        s1 = "Best School"
+        s2 = "Best School"
+        print(s1 is s2)
+        ```
