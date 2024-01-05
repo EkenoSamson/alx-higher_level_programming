@@ -49,9 +49,17 @@
         ```
 10. And a list, is it equal/same?
 	```
->>> l1 = [1, 2, 3]
->>> l2 = [1, 2, 3] 
->>> print(l1 == l2)
+	>>> l1 = [1, 2, 3]
+	>>> l2 = [1, 2, 3] 
+	>>> print(l1 == l2)
+	```
+
+10. List append
+```
+l1 = [1, 2, 3]
+l2 = l1
+l1.append(4)
+print(l2)
 ```
 
 
