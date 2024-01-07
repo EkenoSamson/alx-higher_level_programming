@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+try:
+    print('try')
+    print(10/0)
+except:
+    print('except')
+else:
+    print('elsr')
+finally:
+    print('finally')
