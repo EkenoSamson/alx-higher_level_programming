@@ -37,4 +37,8 @@ A fucntion that divides element by element 2 lists.
 
 0. Raise exception:
 A function that raises a type exception.
-	+ Prototype : ```def raise_exception()```
+	+ Prototype : ```def raise_exception():```.
+
+0. Raise a message:
+A function that raises a name exception with a message.
+	+ Prototype : ```def raise_exception_msg(message=""):```.
