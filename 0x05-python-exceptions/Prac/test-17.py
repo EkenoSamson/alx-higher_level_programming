@@ -2,7 +2,7 @@
 
 f = None
 try:
-    f = open('abc.txt')
+    f = open('abc.txt', 'r')
 except:
     print("some prblem encountered while locating/ openning a file")
 else:
