@@ -34,3 +34,7 @@ A fucntion that divides element by element 2 lists.
 	+ if an element is not an integer/ float: ```wrong type``` is typed.
 	+ if the division can't be divided by zero: ```division by 0```.
 	+ if ```my_list_1``` or ```my_list_2``` is too short : ```out of range```.
+
+0. Raise exception:
+A function that raises a type exception.
+	+ Prototype : ```def raise_exception()```
