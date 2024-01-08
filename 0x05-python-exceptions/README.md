@@ -18,3 +18,9 @@ A function that prints the first x elements of a list and only integer.
 	+ Prototype : ``` def safe_print_integers(my_list=[], x=0):
 	+ All integers have to beprinted on the same line followed by a new line - other type of value in the list must be skipped (silence).
 
+0. Integer division with debug:
+A function that divides 2 integers and prints the result.
+	+ Prototype : ``` def safe_print_division(a, b) ```.
+	+ Assumption: ```a``` and ```b``` are integers.
+	+ Finally: contains result of division.
+	+ Returns: the value of division; otherwise ``` None ```
