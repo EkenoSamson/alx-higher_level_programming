@@ -28,3 +28,8 @@ A function that returns the JSON representation of an object(string).
 A function that returns an object (Python data structure) represented by JSON string:
 	+ Prototype : ```def from_json_string(my_str):```.
 
+0. Save object to a file.
+A function that writes an object to a text file using JSON representation.
+	+ Prototype : ```def save_to_json_file(my_obj, filename):```.
+	+ Use ```with``` statement.
+
