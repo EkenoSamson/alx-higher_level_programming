@@ -1,6 +1,13 @@
 #!/usr/bin/python3
-#class square with size by Ekeno
+""" class Square with size """
+
 
 class Square:
+    """
+    Defining the class
+
+    Args : size - size of the square
+    """
     def __init__(self, size):
+        """ Initialising the instance variables """
         self.__size = size
