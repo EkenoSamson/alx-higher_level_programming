@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-#square class by Ekeno
+# square class by Ekeno
 
 class Square:
-    #no defined public class attributes
+    """ An empty class for square shape"""
     pass
