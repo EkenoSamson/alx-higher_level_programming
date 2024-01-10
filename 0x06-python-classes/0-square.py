@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# square class by Ekeno
+"""class module for a sqaure"""
 
 
 class Square:
