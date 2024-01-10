@@ -26,4 +26,10 @@ A class ```Square``` that defines a square.
 		- size must be an integer, otherwise ```TypeError``` exception with the message ```size must be an integer``` is raised.
 		- if size is less than 0, a ```ValueError exception``` with the message ```size must be >= 0``` is raised.
 
-0. 
+0. Area of a square:
+A class ```Square``` that defines a square.
+        + Private instance attribute: ```size```
+        + Instantiation with optional ```size: def __init__(self, size=0):```
+                - size must be an integer, otherwise ```TypeError``` exception with the message ```size must be an integer``` is raised.
+                - if size is less than 0, a ```ValueError exception``` with the message ```size must be >= 0``` is raised.
+	+ Public instance method: ```def area(self):``` that returns the current square area 
