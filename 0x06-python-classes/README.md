@@ -32,4 +32,14 @@ A class ```Square``` that defines a square.
         + Instantiation with optional ```size: def __init__(self, size=0):```
                 - size must be an integer, otherwise ```TypeError``` exception with the message ```size must be an integer``` is raised.
                 - if size is less than 0, a ```ValueError exception``` with the message ```size must be >= 0``` is raised.
-	+ Public instance method: ```def area(self):``` that returns the current square area 
+	+ Public instance method: ```def area(self):``` that returns the current square area
+
+0. Access and update private attribute:
+A class ```Square``` that defines a square.
+        + Private instance attribute: ```size```
+		- property ```def size(self):``` to retrieve it.
+		- property setter ```def size(self, value):``` to set it:
+                	- size must be an integer, otherwise ```TypeError``` exception with the message ```size must be an integer``` is raised.
+                	- if size is less than 0, a ```ValueError exception``` with the message ```size must be >= 0``` is raised.
+        + Instantiation with optional ```size: def __init__(self, size=0):```
+        + Public instance method: ```def area(self):``` that returns the current square area 
