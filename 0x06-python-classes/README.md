@@ -15,9 +15,9 @@ A class ```Square``` that defines a square.
 	+ Private instance attribute: ```size```
 	+ Instantiation with size (no type/value verification)
 
-NB:Why ```size``` is private attribute?
+	NB:Why ```size``` is private attribute?
 
-The size of a square is crucial for a square, many things depend of it (area computation, etc.), so you, as class builder, must control the type and value of this attribute. One way to have the control is to keep it privately. You will see in next tasks how to get, update and validate the size value.
+	The size of a square is crucial for a square, many things depend of it (area computation, etc.), so you, as class builder, must control the type and value of this attribute. One way to have the control is to keep it privately. You will see in next tasks how to get, update and validate the size value.
 
 0. Size Validation:
 A class ```Square``` that defines a square.
@@ -42,4 +42,16 @@ A class ```Square``` that defines a square.
                 	- size must be an integer, otherwise ```TypeError``` exception with the message ```size must be an integer``` is raised.
                 	- if size is less than 0, a ```ValueError exception``` with the message ```size must be >= 0``` is raised.
         + Instantiation with optional ```size: def __init__(self, size=0):```
-        + Public instance method: ```def area(self):``` that returns the current square area 
+        + Public instance method: ```def area(self):``` that returns the current square area.
+
+0. Printing a square:
+A class ```Square``` that defines a square.
+        + Private instance attribute: ```size```
+                - property ```def size(self):``` to retrieve it.
+                - property setter ```def size(self, value):``` to set it:
+                        - size must be an integer, otherwise ```TypeError``` exception with the message ```size must be an integer``` is raised.
+                        - if size is less than 0, a ```ValueError exception``` with the message ```size must be >= 0``` is raised.
+        + Instantiation with optional ```size: def __init__(self, size=0):```
+        + Public instance method: ```def area(self):``` that returns the current square area.
+	+ Public instance method: ```def my_print(self):``` that prints in stdout the square with the character ```#```:
+		- if ```size``` is equal to 0, print an empty line.
