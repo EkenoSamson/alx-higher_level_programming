@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 
 def greet_person(name):
-    pass
+    
+    return f'Welcome {name}'
