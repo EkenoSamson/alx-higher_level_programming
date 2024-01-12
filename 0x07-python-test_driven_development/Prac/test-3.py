@@ -2,6 +2,11 @@
 import unittest, example
 
 class TesExample(unittest.TestCase):
+    
+    @classmethod
+    def setUpClass(cls):
+        " Beginning"
+        print("Starting test cases")
 
     def setUp(self):
         """ Run before every test """
@@ -25,6 +30,11 @@ class TesExample(unittest.TestCase):
             self.assertTrue(example.can_drink_alcohol(21))
         with self.subTest():
             self.assertFalse(example.can_drink_alcohol(16))
+
+    @classmethod
+    def tearDownClass(cls):
+        """ Ending """
+        print(" Ending test cases")
 
 
 
