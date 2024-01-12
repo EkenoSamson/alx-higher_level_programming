@@ -3,11 +3,12 @@ import unittest, example
 
 class TesExample(unittest.TestCase):
     def test_greet_person(self):
-        greeting_message = example.greet_person('Joe')
-        self.assertEqual(greeting_message, "Welcome Joe")
-    
-    def test_greet_person_lowercase(self):
-        self.assertEqual(example.greet_person('joe'), "Welcome Joe")
+        with self.subTest():
+            greeting_message = example.greet_person('Joe')
+            self.assertEqual(greeting_message, "Welcome Joe")
+
+        with self.subTest():
+            self.assertEqual(example.greet_person('joe'), "Welcome Joe")
 
     def test_can_drink_alcohol(self):
         """ Test if he/she can drink alcohol """
