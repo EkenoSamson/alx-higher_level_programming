@@ -2,4 +2,4 @@
 
 def greet_person(name):
     
-    return f'Welcome {name}'
+    return f'Welcome {name.capitalize()}'
