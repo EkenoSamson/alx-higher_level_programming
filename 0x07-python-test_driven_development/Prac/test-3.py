@@ -2,6 +2,15 @@
 import unittest, example
 
 class TesExample(unittest.TestCase):
+
+    def setUp(self):
+        """ Run before every test """
+        print("Set Up")
+
+    def tearDown(self):
+        """" After every test """
+        print("Tear Down")
+
     def test_greet_person(self):
         with self.subTest('Uppercase J'):
             greeting_message = example.greet_person('Joe')
@@ -21,3 +30,4 @@ class TesExample(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
