@@ -11,8 +11,9 @@ class Person:
     
 class Employee(Person):
     def __init__(self, name, age, eno, esal):
-        self.name =  name
-        self.age = age
+        #self.name =  name
+        #self.age = age
+        super().__init__(name, age)
         self.eno = eno
         self.esal = esal
 
