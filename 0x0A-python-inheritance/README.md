@@ -35,3 +35,11 @@ An empty class BaseGeometry.
 0. Improve Geometry
 A class BaseGeometry (based on 5-base_geometry.py).
 	+ Public instance method: ```def area(self):``` that raises an Exception with the message ```area() is not implemented```.
+
+0. Integer Validator
+A class BaseGeometry (based on 5-base_geometry.py).
+        + Public instance method: ```def area(self):``` that raises an Exception with the message ```area() is not implemented```
+	+ Public instance method: ```def integer_validator(self, name, value):```that validates value:
+		- assume name is always a string
+		- if value is not an integer: raise a ```TypeError``` exception, with the message ```<name> must be an integer```
+		- if value is less or equal to 0: raise a ```ValueError``` exception with the message ```<name> must be greater than 0```

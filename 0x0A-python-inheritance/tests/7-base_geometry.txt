@@ -1,0 +1,80 @@
+===============Doctest for 7-base_geomtry.py=============================
+
+Module 7-base_geomtry creates a class BaseGeometry with two methods
+
+usage
+-------------------------------------------------------------------------
+Importation
+::
+	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+-------------------------------------------------------------------------
+case 0: normal 
+	>>> bg = BaseGeometry()
+	>>> bg.area()
+	Traceback (most recent call last):
+		...
+	Exception: area() is not implemented
+
+-------------------------------------------------------------------------
+case 1: area with extra argument
+::
+	>>> bg.area(1)
+	Traceback (most recent call last):
+		...
+    	TypeError: area() takes 1 positional argument but 2 were given
+
+-----------------------------------------------------------------------
+case 2: with integer_validator
+::
+	>>> bg.integer_validator("name", 1)
+	
+-----------------------------------------------------------------------
+case 3: with zero
+	>>> bg.integer_validator("name", 0)
+	Traceback (most recent call last):
+        	...
+	ValueError: name must be greater than 0
+
+-------------------------------------------------------------------------
+case 4: with negative number
+	>>> bg.integer_validator("name", -5)
+	Traceback (most recent call last):
+        	...
+        ValueError: name must be greater than 0
+
+-------------------------------------------------------------------------
+case 5: with a float
+	>>> bg.integer_validator("name", 1.5)
+	Traceback (most recent call last):
+        	...
+        TypeError: name must be an integer
+
+------------------------------------------------------------------------
+case 6:
+	>>> bg.integer_validator("name", True)
+	Traceback (most recent call last):
+		...
+	TypeError: name must be an integer
+
+-----------------------------------------------------------------------
+case 7: with one argument
+	>>> bg.integer_validator("name")
+	Traceback (most recent call last):
+		...
+	TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+----------------------------------------------------------------------------
+case 8: with three argument
+	>>> bg.integer_validator("name", 1, 2)
+	Traceback (most recent call last):
+		...
+	TypeError: integer_validator() takes 3 positional arguments but 4 were given
+
+----------------------------------------------------------------------------------------
+case 9:with no argument
+	>>> bg.integer_validator()
+	Traceback (most recent call last):
+		...
+	TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+	
