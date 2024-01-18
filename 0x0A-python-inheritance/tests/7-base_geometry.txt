@@ -105,3 +105,10 @@ case 13: None
 	Traceback (most recent call last):
 		...
 	TypeError: name must be an integer
+
+--------------------------------------------------------------------------------------------
+case 14: string
+	>>> bg.integer_validator("name", "str")
+	Traceback (most recent call last):
+		...
+	TypeError: name must be an integer
