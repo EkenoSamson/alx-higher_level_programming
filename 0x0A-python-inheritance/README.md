@@ -16,3 +16,8 @@ A function that returns the list of available attributes and methods of an objec
 A class MyList that inherits from list:
 	+ Public instance method: ```def print_sorted(self):``` that prints the list, but sorted (ascending sort).
 	+ Assume that all the elements of the list will be of type int.
+
+0. Exact same object
+A function that returns True if the object is exactly an instance of the specified class ; otherwise False.
+	+ Prototype: ```def is_same_class(obj, a_class):```
+	
