@@ -12,4 +12,7 @@ A function that returns the list of available attributes and methods of an objec
 	+ Prototype: ``` def lookup(obj):```
 	+ Return: list object.
 
-
+0. My list
+A class MyList that inherits from list:
+	+ Public instance method: ```def print_sorted(self):``` that prints the list, but sorted (ascending sort).
+	+ Assume that all the elements of the list will be of type int.
