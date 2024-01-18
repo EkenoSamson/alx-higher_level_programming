@@ -31,3 +31,7 @@ A function that returns True if the object is an instance of a class that inheri
 
 0. Geometry module
 An empty class BaseGeometry.
+
+0. Improve Geometry
+A class BaseGeometry (based on 5-base_geometry.py).
+	+ Public instance method: ```def area(self):``` that raises an Exception with the message ```area() is not implemented```.
