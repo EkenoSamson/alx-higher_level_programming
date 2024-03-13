@@ -6,6 +6,6 @@ WHERE state_id =
 (
 	SELECT id
 	FROM states
-	WHERE name = "california";
+	WHERE name = "california"
 )
 ORDER BY id;
